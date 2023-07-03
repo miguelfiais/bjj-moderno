@@ -1,0 +1,64 @@
+.container {
+  padding: 3rem 0;
+}
+.container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.imgDemo {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+.left {
+  flex: 40%;
+}
+.right {
+  flex: 60%;
+}
+.title {
+  color: #e90101;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.description {
+  color: #ddd;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+.subtitleTop {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.5rem 0 1rem;
+}
+.subtitle {
+  color: #e90101;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.containerBenefits {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.benefit {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.benefit p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+@media (max-width: 900px) {
+  .container > div {
+    flex-direction: column;
+  }
+}
