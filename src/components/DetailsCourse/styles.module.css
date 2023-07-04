@@ -6,12 +6,23 @@
   font-size: 2rem;
   font-weight: 700;
 }
+.mockup{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mockup img{
+  max-width: 440px;
+  width: 100%;
+  height: auto;
+}
 .description {
   color: #ddd;
   font-size: 1rem;
   font-weight: 400;
   line-height: 150%;
-  margin: 1rem 0 2rem;
+  max-width: 640px;
 }
 .description span {
   color: #fff;
@@ -50,6 +61,13 @@
   .containerModules {
     grid-template-columns: repeat(2, 1fr);
   }
+  .mockup{
+  flex-direction: column;
+}
+.description {
+  max-width: none;
+  margin-bottom: 2rem;
+}
 }
 @media (max-width: 500px) {
   .containerModules {

@@ -1,3 +1,5 @@
+import Image from "next/image"
+import mockup from "../../assets/mockup.png"
 import styles from "./styles.module.css"
 
 const DetailsCourse = () => {
@@ -5,14 +7,17 @@ const DetailsCourse = () => {
     <section className={styles.container}>
       <div className="innerContainer">
         <h2 className={styles.title}>DETALHES DO CURSO</h2>
-        <p className={styles.description}>
-          <span>Formato do Curso: </span>
-          As aulas são ministradas em formato online, permitindo que você
-          aprenda no conforto da sua casa, de acordo com sua disponibilidade de
-          tempo. Além disso, todas as aulas são gravadas e ficam disponíveis
-          para acesso posterior, para que você possa revisar o conteúdo sempre
-          que desejar.
-        </p>
+        <div className={styles.mockup}>
+          <Image src={mockup} alt="mockup" />
+          <p className={styles.description}>
+            <span>Formato do Curso: </span>
+            As aulas são ministradas em formato online, permitindo que você
+            aprenda no conforto da sua casa, de acordo com sua disponibilidade
+            de tempo. Além disso, todas as aulas são gravadas e ficam
+            disponíveis para acesso posterior, para que você possa revisar o
+            conteúdo sempre que desejar.
+          </p>
+        </div>
         <h3 className={styles.subtitle}>MÓDULOS</h3>
         <div className={styles.containerModules}>
           <div className={styles.module}>
