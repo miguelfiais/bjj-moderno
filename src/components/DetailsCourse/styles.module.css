@@ -2,17 +2,18 @@
   padding: 3rem 0;
 }
 .title {
-  color: #e90101;
+  color: #fff;
   font-size: 2rem;
   font-weight: 700;
+  margin-bottom: 2rem;
 }
-.mockup{
+.mockup {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.mockup img{
+.mockup img {
   max-width: 440px;
   width: 100%;
   height: auto;
@@ -25,7 +26,7 @@
   max-width: 640px;
 }
 .description span {
-  color: #fff;
+  color: #ff7878;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -61,13 +62,16 @@
   .containerModules {
     grid-template-columns: repeat(2, 1fr);
   }
-  .mockup{
-  flex-direction: column;
-}
-.description {
-  max-width: none;
-  margin-bottom: 2rem;
-}
+  .mockup {
+    flex-direction: column;
+  }
+  .mockup img{
+    order: 1;
+  }
+  .description {
+    max-width: none;
+    margin-bottom: 2rem;
+  }
 }
 @media (max-width: 500px) {
   .containerModules {

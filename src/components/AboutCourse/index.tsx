@@ -65,6 +65,9 @@ const AboutCourse = () => {
               </p>
             </div>
           </div>
+          <a className={styles.link} href="https://devfiais2.netlify.app/">
+            QUERO FAZER PARTE
+          </a>
         </div>
       </div>
     </main>

@@ -13,7 +13,7 @@ const Question = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className={styles.question}>
+    <article className={styles.question}>
       <div>
         <button onClick={() => setIsOpen(!isOpen)}>
           <Image src={arrow} alt="seta" width={24} height={24} />
@@ -21,7 +21,7 @@ const Question = (props: Props) => {
         <h4>{props.question}</h4>
       </div>
       <p className={isOpen ? styles.answer : styles.close}>{props.answer}</p>
-    </div>
+    </article>
   )
 }
 

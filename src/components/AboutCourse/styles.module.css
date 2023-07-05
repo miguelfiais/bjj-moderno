@@ -19,7 +19,7 @@
   flex: 60%;
 }
 .title {
-  color: #e90101;
+  color: #fff;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -30,13 +30,13 @@
   line-height: 150%;
 }
 .subtitleTop {
-  color: #fff;
+  color: #a10000;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0.5rem 0 1rem;
 }
 .subtitle {
-  color: #e90101;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -56,6 +56,15 @@
   color: #fff;
   font-size: 1rem;
   font-weight: 400;
+}
+.link {
+  display: inline-flex;
+  padding: 1.3125rem 3.125rem;
+  background: #e90101;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
 }
 @media (max-width: 900px) {
   .container > div {
