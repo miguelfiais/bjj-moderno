@@ -1,3 +1,4 @@
+import LinkCta from "../LinkCta"
 import styles from "./styles.module.css"
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
           Domine o Jiu-Jitsu Moderno: Aprenda técnicas avançadas que
           revolucionarão sua abordagem na Arte Marcial
         </p>
-        <a href="https://devfiais2.netlify.app/">QUERO FAZER PARTE</a>
+        <LinkCta />
       </div>
     </header>
   )

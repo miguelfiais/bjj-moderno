@@ -1,5 +1,6 @@
 import Image from "next/image"
 import teacher from "../../assets/teacher.png"
+import LinkCta from "../LinkCta"
 import styles from "./styles.module.css"
 
 const Teacher = () => {
@@ -29,9 +30,7 @@ const Teacher = () => {
             incentiva o crescimento pessoal e o aperfeiçoamento técnico de cada
             aluno.
           </p>
-          <a className={styles.link} href="https://devfiais2.netlify.app/">
-            QUERO FAZER PARTE
-          </a>
+          <LinkCta />
         </article>
         <div className={styles.containerRight}>
           <Image src={teacher} alt="professor" />

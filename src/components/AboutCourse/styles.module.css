@@ -57,24 +57,8 @@
   font-size: 1rem;
   font-weight: 400;
 }
-.link {
-  display: inline-flex;
-  padding: 1.3125rem 3.125rem;
-  background: #e90101;
-  color: #fff;
-  font-size: 1.25rem;
-  font-weight: 700;
+.right a {
   margin-top: 2rem;
-  border-radius: 6px;
-  animation: increase-size 1s infinite alternate;
-}
-@keyframes increase-size {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.05);
-  }
 }
 @media (max-width: 900px) {
   .container > div {

@@ -1,6 +1,7 @@
 import Image from "next/image"
 import check from "../../assets/check.svg"
 import demonstration from "../../assets/mendes.png"
+import LinkCta from "../LinkCta"
 import styles from "./styles.module.css"
 
 const AboutCourse = () => {
@@ -65,9 +66,7 @@ const AboutCourse = () => {
               </p>
             </div>
           </div>
-          <a className={styles.link} href="https://devfiais2.netlify.app/">
-            QUERO FAZER PARTE
-          </a>
+          <LinkCta />
         </div>
       </div>
     </main>
