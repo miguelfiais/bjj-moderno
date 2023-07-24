@@ -20,7 +20,9 @@ const Question = (props: Props) => {
         </button>
         <h4>{props.question}</h4>
       </div>
-      <p className={isOpen ? styles.answer : styles.close}>{props.answer}</p>
+      <div className={isOpen ? styles.textOpen : styles.textClose}>
+        <p className={styles.answer}>{props.answer}</p>
+      </div>
     </article>
   )
 }

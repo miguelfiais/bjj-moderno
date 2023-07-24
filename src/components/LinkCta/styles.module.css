@@ -19,6 +19,7 @@
 
 @media (max-width: 500px) {
   .link {
+    display: block;
     text-align: center;
     width: 95%;
     margin: 0 auto;

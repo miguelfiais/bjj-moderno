@@ -20,7 +20,7 @@ const Guarantee = () => {
           <h3>
             Por apenas <span>R$ 97,00</span>
           </h3>
-          <a href="https://devfiais2.netlify.app/">QUERO FAZER PARTE </a>
+          <a href="https://devfiais.vercel.app/">QUERO FAZER PARTE </a>
         </div>
         <div className={styles.containerRight}>
           <Image src={guarantee} alt="selo de garantia" />

@@ -21,6 +21,16 @@
   line-height: 150%;
   color: #ddd;
 }
-.close {
-  display: none;
+.textOpen,
+.textClose {
+  transition: all 0.6s;
+  overflow: hidden;
+}
+.textOpen {
+  opacity: 1;
+  max-height: 300px;
+}
+.textClose {
+  max-height: 0px;
+  opacity: 0;
 }
